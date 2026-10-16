@@ -68,7 +68,7 @@ i:    &a7 {type: http,     behavior: ipcidr,    interval: 86400}
 proxy-providers:
   Sub:
     <<: *a1
-    url: https://t.me/ddgksf2021.yaml
+    url: https://feed.iggv5.com/c/f2ae6e2a-dbe4-43a8-8d8e-5e523c3bac9c
     # URL后面填写格式1: 直接填写你的机场Clash订阅[推荐此种方式，避免订阅泄露
     # URL后面填写格式2[集合订阅]：https://api.nexconvert.com/sub?target=clash&url=请手动填入你的订阅(多机场订阅用|分割即可)&emoji=true&list=true&new_name=true&udp=false
     path: ./proxy_providers/sub.yaml
